@@ -22,12 +22,6 @@
     transform: translateX(12px);
 }
 
-.SavedItem::before {
-    content: '';
-    position: absolute;
-
-}
-
 .SavedItem button {
     height: 40%;
     border-radius: 8px;
@@ -41,4 +35,17 @@
 
 .SavedItem button:focus {
     outline: none;
+}
+
+@media (max-width: 1000px) {
+    .SavedItem {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .SavedItem {
+        border-radius: 0;
+        width: 85%;
+    }
 }
