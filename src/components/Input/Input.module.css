@@ -25,3 +25,13 @@
 .Expense:focus {
     outline: none;
 }
+
+@media (max-width: 750px) {
+    .Income {
+        width: 70%;
+    }
+
+    .Expense {
+        width: 70%;
+    }
+}

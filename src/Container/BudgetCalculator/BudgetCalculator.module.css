@@ -88,16 +88,17 @@
     font-size: 30px;
     color: transparent;
     background-clip: text;
-    margin: 20px;
+    margin: 25px 20px 20px 20px;
 }
 
 .submit {
-    margin-left: 49%;
+    width: 100%;
     font-size: 30px;
-    border-radius: 0px;
+    border-radius: 25px;
     padding: 10px 15px;
     border: none;
     background-color: #542e71;
+    border-radius: 20px;
     color: #f8f1f1;
     cursor: pointer;
     margin-bottom: 20px;
@@ -113,7 +114,8 @@
 }
 
 .signupsubmit {
-    margin-left: 44%;
+    width: 100%;
+    margin: 0 auto;
     font-size: 30px;
     border-radius: 0px;
     padding: 10px 15px;
@@ -121,10 +123,128 @@
     background-color: #542e71;
     color: #f8f1f1;
     cursor: pointer;
+    border-radius: 25px;
     margin-bottom: 20px;
 }
 
 .signupsubmit:focus {
     outline: none;
+}
+
+.btnClass {
+    width: 25%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+    .budget div {
+        flex: 0 0 48%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .submit {
+        font-size: 20px;
+    }
+
+    .signupsubmit {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .Calc {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Calc div {
+        width: 60%;
+        flex: none;
+    }
+
+    .Calc div div {
+        width: 80%;
+        margin: 0  auto;
+    }
+    
+    .Calc div div ~ div {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .input {
+        flex: none;
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    .budget {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .budget div {
+        width: 100%;
+        margin: 0 auto;
+        flex: 0;
+    }
+
+    .budget div ~ div {
+        width: 100%;
+        margin: 0 auto;
+        flex: 0;
+    }
+
+    .btnClass {
+        width: 28%;
+    }
+
+    .submit {
+        font-size: 19px;
+    }
+
+    .signupsubmit {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 550px) {
+    .btnClass {
+        width: 35%;
+    }
+
+    .budget {
+        width: 94%;
+        padding: 0;
+    }
+
+    .submit {
+        font-size: 16px;
+    }
+
+    .signupsubmit {
+        font-size: 16px;
+    }
+
+    .Calc div {
+        width: 80%;
+    }
+
+    .Calc div div {
+        width: 100%;
+        margin: 0  auto;
+    }
+    
+    .Calc div div ~ div {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .input {
+        width: 75%;
+    }
 }
   

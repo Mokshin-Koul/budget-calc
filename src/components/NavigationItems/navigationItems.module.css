@@ -9,3 +9,21 @@
     color: #16697a;
     font-weight: 600;
 }
+
+@media (max-width: 900px) {
+    .Items {
+        flex: 0 0 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .Items {
+        flex: 0 0 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .Items {
+        flex: 0 0 100%;
+    }
+}
