@@ -1,0 +1,18 @@
+.active {
+    position: relative;
+}
+
+.active::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.normal {
+    text-decoration: none;
+    color: black;
+}

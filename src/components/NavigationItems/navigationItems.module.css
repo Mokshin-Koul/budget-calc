@@ -1,0 +1,11 @@
+.Items {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 0 0 25%;
+    justify-content: space-evenly;
+    margin-left: auto;
+    font-size: 20px;
+    color: #16697a;
+    font-weight: 600;
+}

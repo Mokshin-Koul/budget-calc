@@ -1,0 +1,67 @@
+.Auth {
+    width: 30%;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+input {
+    margin-bottom: 30px;
+    width: 60%;
+    padding: 13px 12px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    background-color: rgb(250,250,250);
+    box-shadow: inset 3px -4px 5px white,inset -1.8px 1.8px 5px rgba(40,40,40,0.4);
+}
+
+input:focus {
+    outline: none;
+}
+
+input:invalid {
+    border: 1px solid crimson;
+}
+
+button:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #16697a;
+    color: #ffa62b;
+}
+
+.toggle {
+    width: 20%;
+    margin: -40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.toggle p {
+    color: #2978b5;
+    font-weight: 600;
+    text-align: center;
+}
+
+.toggle p span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.passwordInvalid {
+    border: 1px solid crimson;
+}

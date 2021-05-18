@@ -1,0 +1,6 @@
+.Header {
+    height: 10vh;
+    background-color: #ffa62b;
+    box-shadow: 0 3px 6px rgba(150,150,150,0.6);
+    display: flex;
+}

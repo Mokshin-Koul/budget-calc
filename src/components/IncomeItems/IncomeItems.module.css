@@ -1,0 +1,10 @@
+.IncomeItems {
+    height: 395px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.IncomeItems::-webkit-scrollbar {
+    display: none;
+}
